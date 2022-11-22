@@ -1,25 +1,24 @@
 .message {
-    position: absolute;
+    position: relative;
+    margin-top: 20px;
     width: 575px;
-    height: 77px;
-    left: 635px;
-    top: 168px;
+    margin-left: auto;
 }
 
 .imageAndText {
-
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: flex-end;
 }
 
 .imageAndText img {
-    position: absolute;
-    left: 527px;
-    top: 12px;
     width: 48px;
     height: 48px;
 }
 
 .text {
-    position: absolute;
+    position: relative;
     width: 510px;
     height: 60px;
     background: #0066CC;
@@ -38,8 +37,7 @@
 
 .name {
     text-align: end;
-    position: absolute;
-    width: 387px;
+    margin: 7px 15px 0 0;
     height: 22px;
     right: 27px;
     top: 7px;
@@ -52,9 +50,8 @@
 }
 
 .messageText {
-    position: absolute;
-    width: 489px;
-    height: 20px;
+    width: 90%;
+    margin: 0 0 7px 15px;
     left: 13px;
     top: 32px;
     font-family: 'Montserrat', sans-serif;
@@ -69,7 +66,7 @@
     position: absolute;
     width: 26px;
     height: 12px;
-    left: 538px;
+    right: 10px;
     top: 65px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
