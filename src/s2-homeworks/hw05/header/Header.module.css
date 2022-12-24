@@ -1,9 +1,12 @@
 .burgerMenuIcon {
-    margin: 20px 0 0 70px;
 }
 
 .header {
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 20% 0 20%;
     top: 0;
     left: 0;
     width: 100%;
@@ -13,6 +16,4 @@
 }
 
 .header h1 {
-    display: inline-block;
-    margin-left: 95px;
 }
