@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
-import {restoreState} from '../hw06/localStorage/localStorage'
+import {restoreState, saveState} from '../hw06/localStorage/localStorage'
 import s from './Clock.module.css'
 
 function Clock() {
@@ -21,6 +21,7 @@ function Clock() {
         // пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
         clearInterval(timerId)
         setTimerId(undefined)
+        saveState('hw9-date', Date.now())
     }
 
     const onMouseEnter = () => { // пишут студенты // показать дату если наведена мышка
