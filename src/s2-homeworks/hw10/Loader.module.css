@@ -1,3 +1,8 @@
+/*import spinner from ''*/
 .loader {
     /*свг и/или анимация*/
+    background-image: url("assets/Rolling.svg");
+    background-color: transparent;
+    width: 108px;
+    height: 108px;
 }
