@@ -22,7 +22,6 @@ function HW11() {
         } else setValue1(value)
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
     }
-
     return (
         <div id={'hw11'}>
             <div className={s2.hwTitle}>Homework #11</div>
@@ -36,7 +35,6 @@ function HW11() {
                             // сделать так чтоб value1 изменялось // пишет студент
                             value={value1}
                             onChange={change}
-                            // style={style}
 
                         />
                     </div>
@@ -47,7 +45,6 @@ function HW11() {
                             // сделать так чтоб value1/2 изменялось // пишет студент
                             value={[value1, value2]}
                             onChange={change}
-                            // style={style}
 
                         />
                         <span id={'hw11-value-2'} className={s.number}>{value2}</span>
