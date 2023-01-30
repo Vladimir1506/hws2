@@ -19,5 +19,13 @@ html {
 }
 
 .select {
-
+    display: block;
+    width: 171px;
+    height: 36px;
+    text-transform: capitalize;
+    background-color: inherit;
+    border: 1px solid inherit;
+    border-radius: 2px;
+    color: inherit;
+    margin-top: 6px;
 }
